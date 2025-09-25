@@ -1,0 +1,86 @@
+body{
+  background-color: lightblue;
+  margin-bottom: 300px;
+}
+
+
+
+
+.container{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selection-title{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial;
+  color: rgb(32, 92, 160);
+  margin-top: 30px;
+
+
+}
+
+.container2{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.description{
+  height: 200px;
+  width: 900px;
+  color: black;
+  
+  font-family: Arial;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+
+}
+
+.bounce-inventory {
+  position: relative;
+  display: grid;
+  grid-template-columns:  300px 300px 300px;
+  
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  z-index: 0;
+ 
+}
+
+.bounce-inventory img{
+  width: 300px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+
+  
+}
+
+.name{
+  
+  background-color: white;
+  width: 100%;            /* same width as image */
+  height: 100px;           /* adjust as needed */
+  display: flex;
+  align-items: center;    /* vertical centering */
+  justify-content: center; /* horizontal centering */
+  margin-top: 10px;       /* space between image and name */
+  border-radius: 0 0 10px 10px;
+  margin-top: -10px;
+  position: relative;
+}
+.text{
+  align-items: center;
+  justify-content: center;
+  top: 1px;
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+}

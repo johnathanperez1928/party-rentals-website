@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Party Rentals | Your Fun Starts Here</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background: url('hero-image.jpg') center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    }
+    header p {
+      font-size: 1.3rem;
+      margin: 15px 0;
+    }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 14px 28px;
+      font-size: 1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      background: #ff5722;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #e64a19;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 40px;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      flex: 1 1 250px;
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100px;
+      margin-bottom: 15px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    footer a {
+      color: #ff5722;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <header>
+    <h1>Your Party, Our Rentals 🎉</h1>
+    <p>Bounce Houses • Water Slides • Tents • Tables & Chairs • Mechanical Bull</p>
+    <a href="#rentals" class="btn">View Rentals</a>
+    <a href="#contact" class="btn">Book Now</a>
+  </header>
+
+  <!-- SERVICES SECTION -->
+  <section class="section" id="rentals">
+    <h2>What We Offer</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="bounce-house.png" alt="Bounce House">
+        <h3>Bounce Houses</h3>
+      </div>
+      <div class="card">
+        <img src="waterslide.png" alt="Inflatable Water Slide">
+        <h3>Inflatable Water Slides</h3>
+      </div>
+      <div class="card">
+        <img src="tent.png" alt="Tent Rentals">
+        <h3>Tents & Canopies</h3>
+      </div>
+      <div class="card">
+        <img src="chairs.png" alt="Chairs and Tables">
+        <h3>Chairs & Tables</h3>
+      </div>
+      <div class="card">
+        <img src="bull.png" alt="Mechanical Bull">
+        <h3>Mechanical Bull</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- PACKAGES SECTION -->
+  <section class="section">
+    <h2>Popular Packages</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Backyard Birthday</h3>
+        <p>Bounce house + chairs & tables.</p>
+        <a href="#contact" class="btn">Reserve</a>
+      </div>
+      <div class="card">
+        <h3>Summer Splash</h3>
+        <p>Water slide + tent + seating.</p>
+        <a href="#contact" class="btn">Reserve</a>
+      </div>
+      <div class="card">
+        <h3>Western Night</h3>
+        <p>Mechanical bull + tent setup.</p>
+        <a href="#contact" class="btn">Reserve</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section" id="contact">
+    <h2>Book Your Event</h2>
+    <p style="text-align:center;">Call us at <strong>(555) 123-4567</strong> or send us a message below.</p>
+    <form style="max-width:600px;margin:auto;display:flex;flex-direction:column;gap:15px;">
+      <input type="text" placeholder="Your Name" required style="padding:10px;">
+      <input type="email" placeholder="Your Email" required style="padding:10px;">
+      <textarea placeholder="Your Message" rows="5" required style="padding:10px;"></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Party Rentals Co. All rights reserved.</p>
+    <p>
+      <a href="#">Home</a> | 
+      <a href="#rentals">Rentals</a> | 
+      <a href="#contact">Contact</a>
+    </p>
+  </footer>
+
+</body>
+</html>

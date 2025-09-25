@@ -1,0 +1,43 @@
+
+body{
+  background-color: lightblue;
+}
+.container0{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial;
+  color: rgb(32, 92, 160);
+}
+.mechanical_bull{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
+  
+}
+
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+.image{
+  width: 600px;
+  height:400px;
+  border-radius: 20px;
+
+}
+.text, .price{
+margin-top: 10px;
+font-family: arial;
+font-weight: bold;
+;
+}
